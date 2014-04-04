@@ -101,11 +101,12 @@ if (isset($_POST['phoneNumber']))
 </head>
 <body>
 	<div class="container">
-		<div class="row-fluid" id="instructional-text">
-			<p>This is a simple form to illustrate how easy it is to decrypt the method many craigslist users post their phone numbers.</p>
-			<p>For example: <strong>5five5 4OneThree 8Two36</strong></p>
 		<div class="row-fluid">
-			<h1 class="header">Decrypt A Craigslist Phone Number</h1> 
+			<h1 class="header">Decrypt A Craigslist Phone Number</h1>
+			<div id="instructional-text">
+				<p>This is a simple form to illustrate how easy it is to decrypt the method many craigslist users post their phone numbers.</p>
+				<p>For example: <strong>5five5 4OneThree 8Two36</strong></p>
+			</div>
 			<form action="./index.php" class="form-horizontal" method="POST">
 				<div class="control-group">
 					<label for="phoneNumber" class="control-label">Phone number text to decrypt</label>
